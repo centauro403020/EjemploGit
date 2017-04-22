@@ -6,6 +6,11 @@
 	<version>1.1-SNAPSHOT</version>
 	<name>web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<username>jlopez403020</username>
+		<password>jlopez2222</password>
+		
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -20,11 +25,11 @@
 		</dependency>
 
 	</dependencies>
-	
+<!-- 	https://jlopez403020@bitbucket.org/rcrespop/web.git -->
 	<scm>
-        <connection>scm:git:https://rcrespop@bitbucket.org/rcrespop/web.git</connection>
+        <connection>scm:git:https://jlopez403020@bitbucket.org/rcrespop/web.git</connection>
         <developerConnection>scm:git:https://${username}:${password}@bitbucket.org/rcrespop/web.git</developerConnection>
-        <url>scm:git:https://rcrespop@bitbucket.org/rcrespop/web.git</url>
+        <url>scm:git:https://jlopez403020@bitbucket.org/rcrespop/web.git</url>
       <tag>HEAD</tag>
   </scm>
 	
